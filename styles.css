@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    height: 244vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: 700 bold;
+    font-size: 2.5em;
+    color: #FFFFFF;
+    line-height: 0px;
+    margin-top: 25px;
+}
+
+header {
+    background: url(Vecto.png);
+    background-size: 100vw;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 55vh;
+    opacity: 1;
+}
+
+header p {
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+header h6 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+header button {
+    font-size: 14px;
+    color: #888888;
+    height: 40px;
+    width: 160px;
+    margin: 15px;
+    border: 0px solid;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+
+.letrinhas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    padding-left: 27.5vw;
+}
+
+.section1 {
+    color: #888888;
+    display: flex;
+}
+
+.texto {
+    margin-left: 23vw;
+    width: 29vw;
+    font-size: 0.9em;
+    text-align: left;
+    letter-spacing: 0.1px;
+}
+
+.texto h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.form {
+    width: 20vw;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 0.8em;
+}
+
+
+.form input {
+    margin-top: 7px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    width: 20vw;
+    height: 25px;
+    border: 2px solid #888888;
+    opacity: 1;
+}
+
+
+.form button {
+    width: 21vw;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    color: #888888;
+}
+
+.check {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: auto;
+    margin-bottom: 0px;
+    margin-right: 9.2vw;
+    height: 48px;
+}
+
+.check label{
+    padding-top: 12px;
+}
+
+.check input {
+    width: 14px;
+    margin-left: 0px;
+}
+
+#fem {
+    margin-left: 33px;
+}
+
+.hrs {
+    display: flex;
+    margin: 6vh 22vw 6vh 21.5vw;
+}
+
+.hrs hr {
+    width: 21vw;
+    display: flex;
+    margin-top: 30px;
+    height: 0px;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.hrs h4 {
+    display: flex;
+    margin-bottom: 6vh;
+    color: #888888;
+    letter-spacing: -0.3px;
+}
+
+
+.produtos img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #888888;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.produtos {
+    width: 67vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 23.7vw;
+    font-size: 12px;
+    color: #888888;
+}
+
+#title {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.produtos button {
+    width: 11.5vw;
+    height: 30px;
+    background-color: white;
+    color: #888888;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.id1 {
+    width: 11vw;
+    margin-right: 43px;
+}
+
+.produtos h3 {
+    color   : #888888;
+    font-weight: 700;
+    margin-top: -6px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.produtos p {
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+ 
+
+.section3 {
+    color: #888888;
+    display: flex;
+}
+
+div h6 {
+    height: 30px;
+    margin-left: 33.5vw;
+    color: #888888;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+}
+
+
+.form2 {
+    margin-left: 27vw;;
+}
+
+.form2 button {
+    width: 260px;
+    height: 39px;
+    margin-left: 15.3vw;
+    margin-top: 50px;   
+    background-color: white;
+    color: #888888;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+.form2 input {
+    width: 340px;
+    height: 25px;
+    margin-left: 2vw;
+    border: 2px solid #888888;
+    opacity: 1;
+    display: inline;
+}
+
+
+.formBotton {
+    margin-left: 10vw;
+}
+
+.form2 label {
+    margin-right: 237px;
+    margin-left: 35px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+footer {
+    background: url(footer.png);
+    background-size: 100vw;
+    margin-top: 150px;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 55vh;
+    align-items: center;
+}
+
+
+footer div {
+    padding-top: 150px;
+}
+
+footer h6 {
+    color: #FFFFFF;
+    justify-content: center;
+    margin-left: -5px;
+    font-size: 12px;
+    font-weight: 300;
+}
